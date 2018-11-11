@@ -22,6 +22,7 @@ public class TTR_LocalGame extends LocalGame {
     TTR_GameState gameState;
 
     public TTR_LocalGame() {
+        //todo test uncommenting this
         //gameState = new TTR_GameState(players.length);
     }
 

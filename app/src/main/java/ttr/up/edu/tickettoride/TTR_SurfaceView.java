@@ -27,4 +27,8 @@ public class TTR_SurfaceView extends SurfaceView {
         dest = new Rect(0, 0, (int)(canvas.getHeight()*((double)board.getWidth()/board.getHeight())), canvas.getHeight());
         canvas.drawBitmap(board, null, dest, paint);
     }
+
+    public void updateCardDisplay(){
+
+    }
 }

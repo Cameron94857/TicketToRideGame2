@@ -14,13 +14,13 @@
 
         <ttr.up.edu.tickettoride.TTR_SurfaceView
             android:id="@+id/animationSurface"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_weight="10" />
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0" />
     </LinearLayout>
 
     <LinearLayout
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal">
 
@@ -82,26 +82,27 @@
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
+            android:layout_height="wrap_content"
             android:layout_weight="1"
             android:orientation="vertical">
 
             <Spinner
-                android:id="@+id/spinner"
+                android:id="@+id/routeSpinner"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content" />
 
             <Button
-                android:id="@+id/button2"
+                android:id="@+id/confirmRouteButton"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Button" />
+                android:text="Claim Route" />
 
             <TextView
                 android:id="@+id/textView"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="TextView" />
+                android:text="TextView"
+                tools:text="Current Score:" />
         </LinearLayout>
     </LinearLayout>
 </LinearLayout>

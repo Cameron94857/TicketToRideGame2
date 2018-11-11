@@ -79,6 +79,14 @@ public abstract class Deck {
         discard.add(card);
     }
 
+    public ArrayList<Card> getCards() {
+        return cards;
+    }
+
+    public ArrayList<Card> getDiscard() {
+        return discard;
+    }
+
     @Override
     public String toString() {
         StringBuilder out = new StringBuilder();

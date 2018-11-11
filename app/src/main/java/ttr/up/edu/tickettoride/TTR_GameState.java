@@ -168,6 +168,46 @@ public class TTR_GameState extends GameState{
         this.routeCards = routeCards;
     }
 
+    public int getBlueTrains() {
+        return blueTrains;
+    }
+
+    public void setBlueTrains(int blueTrains) {
+        this.blueTrains = blueTrains;
+    }
+
+    public int getRedTrains() {
+        return redTrains;
+    }
+
+    public void setRedTrains(int redTrains) {
+        this.redTrains = redTrains;
+    }
+
+    public int getGreenTrains() {
+        return greenTrains;
+    }
+
+    public void setGreenTrains(int greenTrains) {
+        this.greenTrains = greenTrains;
+    }
+
+    public int getYellowTrains() {
+        return yellowTrains;
+    }
+
+    public void setYellowTrains(int yellowTrains) {
+        this.yellowTrains = yellowTrains;
+    }
+
+    public int getBlackTrains() {
+        return blackTrains;
+    }
+
+    public void setBlackTrains(int blackTrains) {
+        this.blackTrains = blackTrains;
+    }
+
     /*
     @Override
     public String toString() {

@@ -14,7 +14,6 @@ package ttr.up.edu.tickettoride;
  */
 
 public class TrainDeck extends Deck {
-
     /**
      * create a new Train Card Deck with the proper amounts of each type of card
      */
